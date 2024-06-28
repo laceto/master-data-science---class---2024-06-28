@@ -24,6 +24,8 @@ knitr::opts_chunk$set(echo = FALSE)
 - https://github.com/laceto/fifa19-data-visualization
 - https://github.com/laceto/menswear-fashion-analytics
 
+## AI  
 
+some applications
 
 

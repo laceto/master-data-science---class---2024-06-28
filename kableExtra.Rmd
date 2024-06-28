@@ -159,7 +159,7 @@ kbl(dt) %>%
 If you happened to have a very long table, you may consider to use this `fixed_header` option to fix the header row on top as your readers scroll. By default, the background is set to white. If you need a different color, you can set `fixed_header = list(enabled = T, background = "red")`. 
 
 ```{r}
-kbl(mtcars[1:10, 1:5]) %>%
+kbl(mtcars[1:100, 1:5]) %>%
   kable_styling(fixed_thead = T)
 ```
 
@@ -208,6 +208,7 @@ tbl_img <- data.frame(
   name = c("kableExtra 1", "kableExtra 2"),
   logo = ""
 )
+
 tbl_img %>%
   kbl(booktabs = T) %>%
   kable_paper(full_width = F) %>%
